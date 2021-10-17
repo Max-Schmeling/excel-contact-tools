@@ -56,7 +56,7 @@ The add-in only works for local installations of Microsoft Excel, i.e., this add
 2. Install the addin-file according to the instructions for **xlam**-addins. Head to the [official Microsoft website](https://support.microsoft.com/en-us/office/add-or-remove-add-ins-in-excel-0af570c4-5cf3-4fa9-9b88-403625a0b460) or simply ask google *How to install xlam-addins in Excel?*
 4. Restart Excel
 5. A new ribbon named *Contacts* should have appeared
-6. If a yellow banner like the one in the screenshot appears, you will have to enable the macros first before the add-in becomes usable.
+6. If a yellow banner appears, you will have to click `enable macros` first before the add-in becomes usable.
 
 <p align="center">
   <img width="100%" src="/screenshots/enable_macros.png">
