@@ -11,7 +11,7 @@ The add-in assumes that your spread sheet contains contact details of the people
 2. **Convert contacts:** Convert multiple cells containing e-mail addresses or names into other contact details like phone numbers etc.
 3. **Search address book**: Like Outlook's address book, but better ;)
 
-These features will subsequently be explained. When the add-in is installed it will add a tab to Excel as shown in the following screenshot:
+These features will subsequently be explained. The add-in is essentially an extension for Microsoft Excel. When the add-in is installed it will add a tab to Excel as shown in the following screenshot:
 
 <p align="center">
   <img width="100%" src="/screenshots/ribbon-tab.png">
