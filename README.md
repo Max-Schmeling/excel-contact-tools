@@ -32,10 +32,10 @@ This tool will replace e-mail addresses or full names in multiple cells in your 
   <img width="100%" src="/screenshots/convert_contacts_example.gif">
 </p>
 
-If there are cases where the contact information in the selected cell(s) does not uniquely identify exactly one user - this can be the case when a cell contains a name and there are multiple people with the same name - the add-in will prompt you with a list of all users it has found allowing you to select the one you wish.
+If there are cases where the contact information in the selected cell(s) does not uniquely identify exactly one user - this can be the case when a cell contains a name and there are multiple people with the same name - the add-in will prompt you with a list of all users it has found, allowing you to select the one you wish.
 
 ### Search Address book
-Open a search bar and search for users in the Active Directory and list their contact details. Double-clicking an entry will open its business card.
+Open a search bar and search for users in the Active Directory and list their contact details. Double-clicking an entry will open its business card. You can search for e-mail addresses, full names, first names, last names, or aliases.
 
 <p align="center">
   <img width="100%" src="/screenshots/address_book.png">
@@ -44,7 +44,7 @@ Open a search bar and search for users in the Active Directory and list their co
 
 # What are the technical requirements?
 
-The entire thing will only work if your company's IT-infrastructure uses Active Directory to manage users... and you need access to that Active Directory. If you do not use Active Directory or are not connected to one, this add-in will be useless to you. The unavailability of the Active Directory will reveal itself through annoyingly long (30 seconds at max) Excel-freezes when attempting to run one of the tools.
+The entire thing will only work if your workplace's IT-infrastructure uses Active Directory to manage its users... and you need access to that Active Directory. If you do not use Active Directory or are not connected to one, this add-in will be useless to you. The unavailability of the Active Directory will reveal itself through annoyingly long (30 seconds at max) Excel-freezes when attempting to run one of the tools.
 
 # Compatibility
 
