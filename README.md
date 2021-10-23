@@ -5,7 +5,7 @@ This Excel add-in was initially used in a German DAX-30 corporate to save its em
 
 # How can the add-in help you?
 
-The add-in assumes that your spread sheet contains contact details of the people who you are working with (ie. one of the following: e-mail address, full names, alias). It also assumes that these contact details are managed in an Active Directory. If that is the case, the add-in can do the following things for you:
+The add-in assumes that your spreadsheet contains contact details of the people who you are working with (ie. one of the following: e-mail address, full names, alias). It also assumes that these contact details are managed in an Active Directory. If that is the case, the add-in can do the following things for you:
 
 1. **Show contact:** Show all other relevant contact details of the e-mail address or name in the active cell
 2. **Convert contacts:** Convert multiple cells containing e-mail addresses or names into other contact details like phone numbers etc.
@@ -56,10 +56,18 @@ The add-in only works for local installations of Microsoft Excel, i.e., this add
 2. Install the addin-file according to the instructions for **xlam**-addins. Head to the [official Microsoft website](https://support.microsoft.com/en-us/office/add-or-remove-add-ins-in-excel-0af570c4-5cf3-4fa9-9b88-403625a0b460) or simply ask google *How to install xlam-addins in Excel?*
 4. Restart Excel
 5. A new ribbon named *Contacts* should have appeared
-6. If a yellow banner appears, you will have to click `Enable Content`, before the add-in becomes usable.
+6. Congrats! The addin is installed and you should be able to use it. If not, check out the troubleshooting-section.
 
+# Troubleshooting
+
+1. If a yellow banner appears at the top of your spreadsheet, you will have to click `Enable Content`, before the add-in becomes usable (see screenshot):
 <p align="center">
   <img width="100%" src="/screenshots/enable_macros.png">
+</p>
+
+2. Head to *File >> Options >> Trust Center >> Macro Settings* in Excel and make sure that macros and the VBA-object model are both enabled (see screenshot):
+<p align="center">
+  <img width="100%" src="/screenshots/enable_macros2.png">
 </p>
 
 # Disclaimer
