@@ -64,4 +64,4 @@ The add-in only works for local installations of Microsoft Excel, i.e., this add
 
 # Disclaimer
 
-Do whatever you want with the source code, but make it open source when you publish anything based on the conents of this repository! Also don't sue me or make me responsible for any damage caused by the use of the addin. When using VBA-based addins its always a good idea to save your work regularly - trust me.
+Do whatever you want with the source code, but make it open source when you publish anything based on the conents of this repository! Also do not sue me and do not make me responsible for any damage caused by the use of the addin. When using VBA-based addins its always a good idea to save your work regularly - trust me.
