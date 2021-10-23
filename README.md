@@ -42,13 +42,10 @@ Open a search bar and search for users in the Active Directory and list their co
 </p>
 
 
-# What are the technical requirements?
-
-The entire thing will only work if your workplace's IT-infrastructure uses Active Directory to manage its users... and you need access to that Active Directory. If you do not use Active Directory or are not connected to one, this add-in will be useless to you. The unavailability of the Active Directory will reveal itself through annoyingly long (30 seconds at max) Excel-freezes when attempting to run one of the tools.
-
 # Compatibility
 
-The add-in only works for local installations of Microsoft Excel, i.e., this add-in does not work with a browser-version of Microsoft Office.
+1. The add-in only works for local installations of Microsoft Excel, i.e., this add-in does not work with a browser-version of Microsoft Office.
+2. The entire thing will only work if your workplace's IT-infrastructure uses Active Directory to manage its users... and you need access to that Active Directory. If you do not use Active Directory or are not connected to one, this add-in will be useless to you. The unavailability of the Active Directory will reveal itself through annoyingly long (30 seconds at max) Excel-freezes when attempting to run one of the tools.
 
 # Installation
 
