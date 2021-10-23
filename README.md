@@ -5,7 +5,7 @@ This Excel add-in was initially used in a German DAX-30 corporate to save its em
 
 # How can the add-in help you?
 
-The add-in assumes that your spread sheet contains contact details of the people who you are working with (ie. one of the following: e-mail address, full names, alias). It also assumes that these contact details are managed in an Active Directory. If that is the case the add-in can do the following things for you:
+The add-in assumes that your spread sheet contains contact details of the people who you are working with (ie. one of the following: e-mail address, full names, alias). It also assumes that these contact details are managed in an Active Directory. If that is the case, the add-in can do the following things for you:
 
 1. **Show contact:** Show all other relevant contact details of the e-mail address or name in the active cell
 2. **Convert contacts:** Convert multiple cells containing e-mail addresses or names into other contact details like phone numbers etc.
