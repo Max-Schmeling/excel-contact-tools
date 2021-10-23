@@ -2,7 +2,7 @@
 
 This Excel add-in was initially used in a German DAX-30 corporate to save its employees time when working with contact details (e.g. that of your co-workers) in the Active Directory. The tool has been saving hundreds of - if not more - working hours since 2019. I figured it can be used externally as well to help more people speed up certain monotonous tasks... so here we go :)
 
-I developed [another free addin](https://github.com/Max-Schmeling/excel-essential-tools), which extends Excel's default functionality by more than 50 new tools.
+I developed [another free addin](https://github.com/Max-Schmeling/excel-essential-tools), which extends Excel's default functionality by more than 50 tools.
 
 # How can the add-in help you?
 
