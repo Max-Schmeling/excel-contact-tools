@@ -62,6 +62,6 @@ The add-in only works for local installations of Microsoft Excel, i.e., this add
   <img width="100%" src="/screenshots/enable_macros.png">
 </p>
 
-# Support
+# Contribution
 
-Since the project is no longer updated and maintained, any questions have to be answered using the available source code.
+Do whatever you want with the source code, but make it Open Source when you publish anything based on it! Also don't sue me or make me responsible for any damage caused by the use of the addin.
