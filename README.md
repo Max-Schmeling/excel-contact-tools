@@ -2,7 +2,7 @@
 
 This Excel addin was initially used in a German DAX-30 corporate to save its employees time when working with contact details (e.g. that of your co-workers) in the Active Directory. The tool has been saving hundreds of - if not more - working hours since 2019. I figured it can be used externally as well to help more people speed up certain monotonous tasks... so here we go :)
 
-The addin is essentially an extension for Microsoft Excel. When the addin is installed it will add a tab to Excel as shown in the following screenshot:
+The addin is essentially an extension for Excel. When the addin is installed it will add a tab to Excel as shown in the following screenshot:
 
 <p align="center">
   <img width="100%" src="/screenshots/ribbon-tab.png">
