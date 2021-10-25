@@ -1,23 +1,22 @@
 # Excel Contact Tools
 
-This Excel add-in was initially used in a German DAX-30 corporate to save its employees time when working with contact details (e.g. that of your co-workers) in the Active Directory. The tool has been saving hundreds of - if not more - working hours since 2019. I figured it can be used externally as well to help more people speed up certain monotonous tasks... so here we go :)
+This Excel addin was initially used in a German DAX-30 corporate to save its employees time when working with contact details (e.g. that of your co-workers) in the Active Directory. The tool has been saving hundreds of - if not more - working hours since 2019. I figured it can be used externally as well to help more people speed up certain monotonous tasks... so here we go :)
 
-I developed [another free addin](https://github.com/Max-Schmeling/excel-essential-tools), which extends Excel's default functionality by more than 50 tools.
-
-# How can the add-in help you?
-
-The add-in assumes that your spreadsheet contains contact details of the people who you are working with (ie. one of the following: e-mail address, full names, alias). It also assumes that these contact details are managed in an Active Directory. If that is the case, the add-in can do the following things for you:
-
-1. **Show contact:** Show all other relevant contact details of the e-mail address or name in the active cell
-2. **Convert contacts:** Convert multiple cells containing e-mail addresses or names into other contact details like phone numbers etc.
-3. **Search address book**: Like Outlook's address book, but better ;)
-
-These features will subsequently be explained. The add-in is essentially an extension for Microsoft Excel. When the add-in is installed it will add a tab to Excel as shown in the following screenshot:
+The addin is essentially an extension for Microsoft Excel. When the addin is installed it will add a tab to Excel as shown in the following screenshot:
 
 <p align="center">
   <img width="100%" src="/screenshots/ribbon-tab.png">
 </p>
 
+*I developed [another addin](https://github.com/Max-Schmeling/excel-essential-tools), which extends Excel's default functionality by more than 50 tools.*
+
+# How can the addin help you?
+
+The addin assumes that your spreadsheet contains contact details of the people who you are working with (ie. one of the following: e-mail address, full names, alias). It also assumes that these contact details are managed in an Active Directory. If that is the case, the addin can do the following things for you:
+
+1. **Show contact:** Show all other relevant contact details of the e-mail address or name in the active cell
+2. **Convert contacts:** Convert multiple cells containing e-mail addresses or names into other contact details like phone numbers etc.
+3. **Search address book**: Like Outlook's address book, but better ;)
 
 ### Show contact (business card)
 If the active cell in your spreadsheet contains an e-mail address or full name, the tool will show all contact details associated with that e-mail address or full name. For example, if the cell you selected in your spreadsheet contains an e-mail address, a window will pop up displaying all contact details associated with that e-mail address. Clicking the `+`-button next to an entry will paste that entry into the active cell.
@@ -33,7 +32,7 @@ This tool will replace e-mail addresses or full names in multiple cells in your 
   <img width="100%" src="/screenshots/convert_contacts_example.gif">
 </p>
 
-If there are cases where the contact information in the selected cell(s) does not uniquely identify exactly one user - this can be the case when a cell contains a name and there are multiple people with the same name - the add-in will prompt you with a list of all users it has found, allowing you to select the one you wish.
+If there are cases where the contact information in the selected cell(s) does not uniquely identify exactly one user - this can be the case when a cell contains a name and there are multiple people with the same name - the addin will prompt you with a list of all users it has found, allowing you to select the one you wish.
 
 ### Search Address book
 Open a search bar and search for users in the Active Directory and list their contact details. Double-clicking an entry will open its business card. You can search (fuzzy) for e-mail addresses, full names, first names, last names, or aliases.
