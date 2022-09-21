@@ -45,7 +45,7 @@ Open a search bar and search for users in the Active Directory and list their co
 # Compatibility
 
 1. The add-in only works for local installations of Microsoft Excel, i.e., this add-in does not work with a browser-version of Microsoft Office.
-2. The entire thing will only work if your workplace's IT-infrastructure uses Active Directory to manage its users... and you need access to that Active Directory. If you do not use Active Directory or are not connected to one, this add-in will be useless to you. The unavailability of the Active Directory will reveal itself through annoyingly long (30 seconds at max) Excel-freezes when attempting to run one of the tools.
+2. The add-in will only work if your workplace's IT-infrastructure uses Active Directory to manage its users... and you need access to that Active Directory. If you do not use Active Directory or are not connected to one, this add-in will be useless to you. The unavailability of the Active Directory will reveal itself through annoyingly long (30 seconds at max) Excel-freezes when attempting to run one of the tools. If you have a VPN at your workplace, it could be that the Active Directory is only available while you are connected to the VPN. So please make sure you are connected.
 
 # Installation
 
@@ -66,6 +66,8 @@ Open a search bar and search for users in the Active Directory and list their co
 <p align="center">
   <img width="100%" src="/screenshots/enable_macros2.png">
 </p>
+
+3. If you have a corporate VPN at your workplace, it could be that the Active Directory is only available while you are connected to the VPN. So please make sure you are connected.
 
 # Disclaimer
 
