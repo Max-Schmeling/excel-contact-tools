@@ -15,8 +15,8 @@ The addin is essentially an extension for Excel. When the addin is installed it 
 The addin assumes that your spreadsheet contains contact details of the people who you are working with (ie. one of the following: e-mail address, full names, alias). It also assumes that these contact details are managed in an Active Directory. If that is the case, the addin can do the following things for you:
 
 1. **Show contact:** Show all other relevant contact details of the e-mail address or name in the active cell
-2. **Convert contacts:** Convert multiple cells containing e-mail addresses or names into other contact details like phone numbers etc.
-3. **Search address book**: Like Outlook's address book, but better ;)
+2. **Convert contacts:** Convert multiple cells containing e-mail addresses or names into other contact details of your choice (e.g. phone number, location, etc.)
+3. **Search address book**: Like Outlook's address book, but within Excel
 
 ### Show contact (business card)
 If the active cell in your spreadsheet contains an e-mail address or full name, the tool will show all contact details associated with that e-mail address or full name. For example, if the cell you selected in your spreadsheet contains an e-mail address, a window will pop up displaying all contact details associated with that e-mail address. Clicking the `+`-button next to an entry will paste that entry into the active cell.
